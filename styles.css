@@ -1,0 +1,139 @@
+.main {
+    width: 600px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333333;; 
+}
+
+.img-logo {
+   margin: 15px 0;
+   padding: 10px 20px 15px;
+}
+.mr-logo {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.pink-mail {
+    margin: 15px 0;
+}
+
+.envelope {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: xx-large;
+    color: #272643;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    color: #272643;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5%;
+    background-color: #bae8e8;
+    padding: 10px 45px;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a input[type="button"] {
+    cursor: pointer;
+}
+
+.footer-side {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    background-color: #fafafa;
+}
+
+.footer-side .nav-bar ul li {
+    font-size: 12px;
+}
+
+.footer-side .nav-bar ul li a {
+    color: #333333;
+}
+
+.footer-side .nav-bar ul {
+    border-top: 1px solid darkgrey;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.fb,
+.insta,
+.pin {
+    width: 60%;
+}
+
+.footer-side p {
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+    padding-bottom: 20px;
+    
+}
+
+.attribution {
+    font-size: 11px;
+    color: hsl(228 45% 44%);
+    text-align: center;
+}
+ 
